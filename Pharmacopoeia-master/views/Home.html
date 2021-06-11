@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap" rel="stylesheet">
+    <!-- My CSS -->
+    <link rel="stylesheet" href="../css/Home.css" />
+    <title>GemDrugs</title>
+  </head>
+  <body>
+  <nav class="navbar">
+    <span class="navbar-brand mb-0 h1">G E M&nbsp;&nbsp;D R U G S</span>
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="/myHISTORY"
+        >H I S T O R Y <span class="sr-only">(current)</span></a
+        >
+      </li>
+    </ul>
+  </nav>
+    <div class="main">
+      <div>
+        <div class="container">
+          <h2 class="display-4" style="color: white; font-family: 'Roboto Mono', monospace;">
+            PHARMACOPOIEA
+          </h2>
+          <p class="lead blahBlah" style="color: white">
+            Safe & Accurate <br />Data You Can Depend On
+          </p>
+        </div>
+      </div>
+      <div class="outerBody">
+        <form action="/display" method="POST">
+          <div class="innerBody">
+            <input
+              class="searchInput"
+              type="search"
+              name="drug_name"
+              placeholder="Search for the Drug"
+              required
+            />
+            <button class="searchButton" type="submit"><i class="fas fa-search"></i></button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

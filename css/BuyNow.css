@@ -1,0 +1,84 @@
+body {
+    background-image: url('../images/bg.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    color: black;
+}
+
+.navbar {
+    background-color: #93d6eb;
+    margin: 0;
+    padding: 1%;
+}
+
+.navbar-brand {
+    color: black;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: black;
+}
+
+.main {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    padding: 3vh;
+}
+
+.one {
+    padding: 3%;
+    height: 80vh;
+    width: 60vw;
+    margin-top: 3vh;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+
+}
+
+.two {
+    height: 80vh;
+    width: 30vw;
+    margin-top: 3vh;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    padding: 3%;
+}
+
+input[type=text] {
+    padding: 7px;
+    border-radius: 25px;
+ margin-bottom: 5%;
+    margin-top: 3%;
+}
+
+input[type=text]:focus {
+    outline: none;
+}
+
+input[type=tel] {
+    padding: 7px;
+    border-radius: 25px;
+    margin-bottom: 7%;
+}
+
+input[type=tel]:focus {
+    outline: none;
+}
+
+textarea {
+    padding: 7px;
+    border-radius: 25px;
+    margin-bottom: 5%;
+}
+
+textarea:focus {
+    outline: none;
+}
+
+.myButton{
+    margin-top: 20%;
+}

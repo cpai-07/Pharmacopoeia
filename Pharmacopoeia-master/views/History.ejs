@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+            type="text/css"
+            rel="stylesheet"
+            href="../css/materialize.css"
+            media="screen,projection"
+    />
+    <title>History</title>
+</head>
+<body style="background-color:black;">
+<!-- NavBar -->
+<nav>
+    <div class="nav-wrapper" style="background-color: #93d6eb;">
+        <a href="#" class="brand-logo center black-text" style="font-size: 1.5rem;"><%= User %>'s Drug Search
+            History</a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a href="../views/Home.html">❌</a></li>
+        </ul>
+    </div>
+</nav>
+
+<div style="padding: 2%">
+    <table>
+        <thead>
+        <tr>
+            <th style="color: white;">Drug Name</th>
+            <th style="color: white;">Time & Date</th>
+        </tr>
+        </thead>
+        <tbody>
+        <% data.forEach(function(x) { %>
+        <tr>
+            <td style="color: white;"><%= x.drugName %></td>
+            <td style="color: white;"><%= x.date %></td>
+        </tr>
+        <% }); %>
+        </tbody>
+    </table>
+</div>
+</body>
+</html>
